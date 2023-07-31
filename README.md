@@ -26,7 +26,7 @@ pip install -r generate_dataset/requirements.txt
 cd generate_dataset
 ```
 
-## Prepare audio data
+### Prepare audio data
 
 Create a directory `../audio/mp3` and put a few mp3 audio files in it. This is necessary for `Generate query data` step for `audio_swap` augmentation to randomly choose audio from this directory. Optionally, you can exclude this augmentation from `augment_methods` list in `generate_dataset/utils.py`.
 
